@@ -53,7 +53,7 @@ export default function ReactHookForm() {
           <Button
             type="submit"
             className="w-full"
-            disabled={form.formState.isLoading}
+            disabled={form.formState.isSubmitting}
           >
             Submit
           </Button>
